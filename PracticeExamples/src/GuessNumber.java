@@ -17,7 +17,7 @@ public class GuessNumber {
 			userInput = scan.nextInt();
 			System.out.println("You guessed " + userInput + " and the computer generated " + randomNumber);
 			count++;
-			System.out.print("Tries = "+ count);
+			System.out.println("Tries = "+ count);
 			
 		} while(randomNumber !=userInput);
 		
